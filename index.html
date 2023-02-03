@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <title>Card</title>
+</head>
+<body>
+	<div class="container-02 container-01">
+		<h2>MARIO</h2>
+		<div class="glassmorphic-card">
+			<div class="imgBox">
+				<img src="assets/mario.png" alt="Mario">
+			</div>
+			<div class="contentBox">
+				<h3>Design</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+				<a href="#"><span>Read More</span></a>
+			</div>
+		</div>
+		<p><span>kamblack666@gmail.com</span></p>
+	</div>
+    <script>
+        VanillaTilt.init(document.querySelector(".glassmorphic-card"), {
+		max: 15,
+		speed: 200,
+		glare: true,
+		"max-glare": 1,
+	});
+    </script>
+</body>
+</html>
